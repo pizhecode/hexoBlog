@@ -1,0 +1,3 @@
+var posts=["2024/06/06/HumanSystemOptimization/","2024/05/11/nginx/","2024/06/15/CSS初始化/","1970/01/01/hello-world/","2024/07/02/GPT/","2024/07/01/Github加速镜像/","2024/07/03/免费看电影/","2024/07/05/免费音乐下载/","2024/05/15/在线测速网站/","2024/07/02/白嫖AI网站大全/","2024/06/08/影视网站/","2024/07/19/证书/","2024/07/08/破解PC游戏/"];function toRandomPost(){
+    pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
+  };
